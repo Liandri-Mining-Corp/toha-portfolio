@@ -8,55 +8,25 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: IT Specialist for System Integration
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
-
-# your resume. this file path should be relative to you "static" directory
-# Dreprecated. Use resourceLinks instead.
-# resume: "files/resume.pdf"
+  name: KTI Distribution GmbH
+  url: "https://kti.de/"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'I am a passionate IT specialist for system integration with 2 years of working experience. I administer multiple networks and servers. Sometimes, I work on some fun projects, such as implementing new systems in my own home lab, etc.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "sofia.liandri.beck@proton.me"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
-
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "#"
-
-# To Do: Remove
-# - name: Twitter
-#   icon: "fab fa-twitter"
-#   url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
-
-- name: ResearchGate
-  icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/john-doe"
+  url: "https://www.github.com/Liandri-Mining-Corp"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
