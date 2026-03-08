@@ -1,8 +1,8 @@
 # ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
 baseURL: https://github.com/Liandri-Mining-Corp/toha-portfolio
 
-languageCode: bn
-title: "John's Blog"
+languageCode: de
+title: "Sofias Portfolio"
 
 # Use Hugo modules to add theme
 module:
@@ -25,14 +25,14 @@ languages:
     languageCode: en
     languageName: English
     title: "Sofias portfolio"
-    weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
     weight: 2
+  de:
+    languageCode: de
+    languageName: Deutsch
+    title: "Sofias Portfolio"
+    weight: 1
 # default language for the content
-defaultContentLanguage: en
+defaultContentLanguage: de
 
 
 # Allow raw html in markdown file
