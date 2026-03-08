@@ -1,5 +1,5 @@
 # ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
-baseURL: https://hugo-themes.github.io/toha-example-site/
+baseURL: https://github.com/Liandri-Mining-Corp/toha-portfolio
 
 languageCode: bn
 title: "John's Blog"
@@ -71,7 +71,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/Liandri-Mining-Corp/toha-portfolio
   # Default branch of your Git repo
   gitBranch: main
 
@@ -156,11 +156,11 @@ params:
 
     # Enable Analytics
     analytics:
-      enable: true
+      enable: false
       services:
         # Google Analytics
         google:
-          id: G-H4LBG7NDFZ
+          id: null
         # # CounterDev
         # counterDev:
         #   id: <your counterdev id>
@@ -177,10 +177,10 @@ params:
       enable: false
       services:
         kofi:
-          user: hossainemruz
-          text: Tip Me
-          textColor: '#f9fafc'
-          backgroundColor: '#248aaa'
+          user: #hossainemruz
+          text: #Tip Me
+          textColor: #'#f9fafc'
+          backgroundColor: #'#248aaa'
         # buymeacoffee:
         #   user: <your buymeacoffee.com user>
         #   text: Support me on Buy me a coffee!
