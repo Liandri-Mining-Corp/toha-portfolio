@@ -1,0 +1,24 @@
+# section information
+section:
+  name: Bildung
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Abitur
+  icon: fa-school
+  timeframe: 2020-2023
+  institution:
+    name: Felix-Fechenbach-Gesamtschule
+    logo: /images/sections/education/ffg.png
+
+- name: Fachhochschulreife mit Q Vermerk
+  icon: fa-school
+  timeframe: 2010-2020
+  institution:
+    name: Heinz-Sielmann-Schule

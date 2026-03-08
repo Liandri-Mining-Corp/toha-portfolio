@@ -1,0 +1,29 @@
+# section information
+section:
+  name: Erfolge und Zertifikate
+  id: accomplishments
+  enable: true
+  weight: 9
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+#TO Do: Add Urls when Name change is done and new Certs are availble
+# Your accomplishments
+accomplishments:
+- name: Certified Site Survery Enginner
+  timeline: "March 2026 - March 2026"
+  organization:
+    name: Avanis GmbH
+    url: https://www.avanis.de
+  courseOverview: Ziel dieses dreitägigen Seminars ist die Schulung von IT-Administratoren, -Technikern und -Planern zur Durchführung von WLAN-Standortanalysen mit der Ekahau-Software-Suite. Der Kurs vermittelt das notwendige Wissen für die effiziente Nutzung von Ekahau AI Pro/Connect und Ekahau Sidekick sowie Methoden zur Planung, Messung und Analyse von WLAN-Netzwerken. Abschließend erfolgt eine Prüfung mit Zertifizierung zum CSSE (Certified Site Survey Engineer).
+  #certificateURL: ""
+
+- name: Grundlagen der aktiven Netzwerktechnik
+  timeline: "Jun 2025 - Jun 2025"
+  organization:
+    name: KTI Distribution GmbH
+    url: https://www.kti.de
+  courseOverview: "Der zweitägige Praxisworkshop vermittelt die wichtigsten Grundlagen der Netzwerktechnik: Sie erhalten Einblick in verschiedene Netzwerktechnologien und lernen die grundlegende Konfiguration von Switches kennen. Der Kurs eignet sich sowohl für Netzwerk-Einsteiger als auch für fortgeschrittene Anwender, die ihr Wissen vertiefen möchten."
+  #certificateURL: "https://example.com"

@@ -1,0 +1,65 @@
+# section information
+section:
+  name: Berufserfahrung
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: KTI Distribution GmbH
+    url: "https://kti.de"
+    location: Bielefeld
+    logo: /images/sections/experiences/kti.png
+    overview: Distributor aktiver Netzwerkinfrastruktur und Anbieter verschiedener IT-Dienstleistungen.
+  positions:
+  - designation: Auszubildende Fachinformatikerin für Systemintegration
+    start: Oct 2024
+    # end: Oct 2027
+    responsibilities:
+    - Planung und Implementierung von IT-Lösungen
+    - Wartung der IT-Infrastruktur
+    - First-Level-Support
+
+  #- designation: Junior Software Engineer
+  #  start: Nov 2017
+  #  end: Oct 2019
+  #  responsibilities:
+  #  - Implement and test xyz feature for abc tool.
+  #  - Support client for abc tool.
+  #  - Learn k,d,w technology for xyz.
+
+- company:
+    name: Archäologisches Freilichtmuseum e.V.
+    url: "https://www.afm-oerlinghausen.de/"
+    location: Oerlinghausen
+    logo: /images/sections/experiences/afm.png
+    overview: Das Archäologische Freilichtmuseum Oerlinghausen ist ein Freilichtmuseum, welches sich in Oerlinghausen, einer Stadt im Landkreis Lippe in Nordrhein-Westfalen befindet.
+  positions:
+  - designation: Leiterin der EDV
+    start: April 2020
+    # end:
+    responsibilities:
+    - Planung und Implementierung von IT-Lösungen
+    - Wartung der IT-Infrastruktur
+    - Administration von Google Workspace
+    - Endbenutzersupport
+    - Administration von Kassensystemen
+
+- company:
+    name: Haus Neuland
+    url: "https://www.haus-neuland.de/"
+    location: Bielefeld
+    logo: /images/sections/experiences/haus-neuland.jpg
+    overview: Haus Neuland ist eine Jugend- und Erwachsenenbildungseinrichtung in Bielefeld.
+  positions:
+  - designation: Praktikantin
+    start: April 2019
+    end: May 2019
+    responsibilities:
+    - Seminare vorbereiten.
+    - Bei Seminaren mitwirken.

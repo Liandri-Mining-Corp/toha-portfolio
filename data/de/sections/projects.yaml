@@ -1,0 +1,29 @@
+# section information
+section:
+  name: Projekte
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+#buttons:
+#- name: All
+#  filter: "all"
+#- name: Professional
+#  filter: "professional"
+#- name: Hobby
+#  filter: "hobby"
+
+# your projects
+projects:
+- name: Digizubis
+  #logo: /images/sections/projects/ihk.jpg
+  role: Mitwirkende
+  timeline: "November 2024 - March 2025"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Projekt zur Umstellung eines Warenannahmesystems von Papier auf digital.
+  tags: ["professional"]

@@ -1,0 +1,113 @@
+# section information
+section:
+  name: Fähigkeiten
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Basis
+  filter: "basic"
+- name: Sprache
+  filter: "language"
+- name: Betriebssystem
+  filter: "Operating System"
+- name: Sonstiges
+  filter: "others"
+- name: Virtualisierung
+  filter: "virtualization"
+- name: Netzwerk
+  filter: "network"
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+
+- name: Proxmox
+  logo: /images/sections/skills/pve.png
+  summary: "Verwendung von Proxmox VE als primären Hypervisor zur Verwaltung von virtuellen Maschinen und LXC-Containern in einer selbst gehosteten Homelab- und Produktionsumgebung."
+  categories: ["virtualization"]
+  url: "https://www.proxmox.com/de/produkte/proxmox-virtual-environment/uebersicht"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Erfahren im Containerisieren von Anwendungen, Verwalten von Images, Volumes und Netzwerken sowie der Orchestrierung von Multi-Container-Umgebungen mit Docker Compose."
+  categories: ["virtualization"]
+  url: "https://www.docker.com/"
+
+- name: Proxmox Backup Server
+  logo: /images/sections/skills/pve.png
+  summary: "Erfahren im Einrichten und Verwalten des Proxmox Backup Servers für inkrementelle, deduplizierte Backups von VMs und Containern, inklusive Planung, Bereinigung und Wiederherstellung."
+  categories: ["virtualization"]
+  url: "https://www.proxmox.com/en/proxmox-backup-server"
+
+- name: VMware ESXi
+  #logo: /images/sections/skills/esxi.png
+  summary: "In der Lage, VMware ESXi-Hypervisoren zu deployen und zu verwalten, virtuelle Maschinen, Datenspeicher und Netzwerke sowohl in Standalone- als auch in vCenter-verwalteten Umgebungen zu konfigurieren."
+  categories: ["virtualization"]
+  url: "https://www.vmware.com/products/esxi-and-esx.html"
+
+- name: Zabbix
+  logo: /images/sections/skills/zabbix.png
+  summary: "In der Lage, Zabbix für das Infrastruktur-Monitoring einzurichten und zu konfigurieren, einschließlich Hosts, Trigger, Dashboards und Alarmierung."
+  categories: ["basic"]
+  url: "https://www.zabbix.com"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Verwendung von Linux als primäres Betriebssystem für Entwicklung und Serveradministration. Sicher im Umgang mit Shell-Scripting, Systemkonfiguration und CLI-Werkzeugen."
+  categories: ["Operating System"]
+
+- name: Windows
+  #logo: /images/sections/skills/windows.png
+  summary: "Sicher im Umgang und in der Administration von Windows als Desktop-Betriebssystem, einschließlich Systemkonfiguration, Fehlerbehebung und Benutzerverwaltung."
+  categories: ["Operating System"]
+  url: "https://www.microsoft.com/windows"
+
+- name: Windows Server
+  #logo: /images/sections/skills/windows.png
+  summary: "Erfahren im Bereitstellen und Verwalten von Windows-Server-Umgebungen, einschließlich Active Directory, DNS, DHCP, Gruppenrichtlinien und Dateidiensten."
+  categories: ["others", "Operating System"]
+  url: "https://www.microsoft.com/en-us/windows-server"
+
+- name: FortiGate
+  logo: /images/sections/skills/fortigate.png
+  summary: "Erfahren in der Konfiguration und Verwaltung von FortiGate-Firewalls, einschließlich Firewall-Richtlinien, VPN-Einrichtung, NAT und Netzwerksegmentierung in Unternehmensumgebungen."
+  categories: ["network"]
+  url: "https://www.fortinet.com/products/next-generation-firewall"
+
+- name: Edge-Core Switches
+  #logo: /images/sections/skills/edgecore.png
+  summary: "In der Lage, Edge-Core-Switches zu konfigurieren und zu verwalten, einschließlich VLANs, STP, Link-Aggregation und Port-Mirroring in LAN-Umgebungen."
+  categories: ["network"]
+  url: "https://www.edge-core.com"
+
+- name: KTI Switches
+  logo: /images/sections/skills/kti.png
+  summary: "Erfahren im Umgang mit industriellen KTI-Switches für zuverlässige Netzwerkkonnektivität, einschließlich der Konfiguration von Managed Switches in strukturierten Verkabelungsumgebungen."
+  categories: ["network"]
+  url: "https://www.kti.de"
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Sicher im Umgang mit Git-Workflows, einschließlich Branching, Merging, Rebasing sowie der Zusammenarbeit über Plattformen wie GitHub und GitLab."
+  categories: ["basic"]
+  url: "https://git-scm.com/"
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Vertraut mit Python für Scripting, Automatisierung und Problemlösung. Eingesetzt in Bereichen wie Datenverarbeitung und Infrastruktur-Tooling."
+  categories: ["basic", "language"]
+
+- name: KTI Medienkonverter
+  logo: /images/sections/skills/kti.png
+  summary: "Vertraut mit dem Einsatz und der Verwaltung von KTI-Medienkonvertern für Glasfaser-zu-Kupfer-Übergänge zur Erweiterung der Netzwerkreichweite in gemischten Infrastrukturumgebungen."
+  categories: ["network"]
+  url: "https://www.kti.de"
