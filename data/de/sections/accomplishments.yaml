@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Accomplishments
+  name: Erfolge und Zertifikate
   id: accomplishments
   enable: true
   weight: 9
@@ -17,13 +17,13 @@ accomplishments:
   organization:
     name: Avanis GmbH
     url: https://www.avanis.de
-  courseOverview: The aim of this 3-day seminar is to train IT administrators, technicians, and planners to conduct WLAN site surveys using the Ekahau software suite. The course provides the necessary knowledge for the efficient use of Ekahau AI Pro/Connect and Ekahau Sidekick, as well as methods for planning, measuring, and analyzing WLAN networks. The course concludes with an exam and certification as a CSSE (Certified Site Survey Engineer).
+  courseOverview: Ziel dieses dreitägigen Seminars ist die Schulung von IT-Administratoren, -Technikern und -Planern zur Durchführung von WLAN-Standortanalysen mit der Ekahau-Software-Suite. Der Kurs vermittelt das notwendige Wissen für die effiziente Nutzung von Ekahau AI Pro/Connect und Ekahau Sidekick sowie Methoden zur Planung, Messung und Analyse von WLAN-Netzwerken. Abschließend erfolgt eine Prüfung mit Zertifizierung zum CSSE (Certified Site Survey Engineer).
   #certificateURL: ""
 
-- name: Basics of active network technology
+- name: Grundlagen der aktiven Netzwerktechnik
   timeline: "Jun 2025 - Jun 2025"
   organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "The two-day practical workshop teaches the most important basics of networking: you will gain an insight into the various network technologies and, on a practical level, basic switch configurations. The training course is suitable for both networking beginners and advanced users who want to learn more."
+    name: KTI Distribution GmbH
+    url: https://www.kti.de
+  courseOverview: "Der zweitägige Praxisworkshop vermittelt die wichtigsten Grundlagen der Netzwerktechnik: Sie erhalten Einblick in verschiedene Netzwerktechnologien und lernen die grundlegende Konfiguration von Switches kennen. Der Kurs eignet sich sowohl für Netzwerk-Einsteiger als auch für fortgeschrittene Anwender, die ihr Wissen vertiefen möchten."
   #certificateURL: "https://example.com"
