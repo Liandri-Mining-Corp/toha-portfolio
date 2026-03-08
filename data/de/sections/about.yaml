@@ -1,0 +1,75 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: IT Specialist for System Integration
+# your company information
+company:
+  name: KTI Distribution GmbH
+  url: "https://kti.de/"
+
+# a summary about you
+summary: 'I am a passionate IT specialist for system integration with 2 years of working experience. I administer multiple networks and servers. Sometimes, I work on some fun projects, such as implementing new systems in my own home lab, etc.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "sofia.liandri.beck@proton.me"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/Liandri-Mining-Corp"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "My Resume"
+  url: "files/resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: Fortinet Certified Associate Cybersecurity
+  url: "https://www.credly.com/org/fortinet/badge/fortinet-certified-associate-cybersecurity.1"
+  badge: "https://images.credly.com/size/340x340/images/20082fc1-94af-4773-9df0-28856b566748/image.png"
+  
+- type: certification
+  name: Fortinet Certified Fundamentals Cybersecurity
+  url: "https://www.credly.com/org/fortinet/badge/fortinet-certified-fundamentals-cybersecurity"
+  badge: "https://images.credly.com/size/340x340/images/22a0ece5-ff05-4594-8320-25e55e9ae203/image.png"
+
+- type: soft-skill-indicator
+  name: Planning
+  percentage: 85
+  color: green
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 60
+  color: blue
+
+- type: soft-skill-indicator
+  name: Hard Working
+  percentage: 80
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

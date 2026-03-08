@@ -1,0 +1,29 @@
+# section information
+section:
+  name: Accomplishments
+  id: accomplishments
+  enable: true
+  weight: 9
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+#TO Do: Add Urls when Name change is done and new Certs are availble
+# Your accomplishments
+accomplishments:
+- name: Certified Site Survery Enginner
+  timeline: "March 2026 - March 2026"
+  organization:
+    name: Avanis GmbH
+    url: https://www.avanis.de
+  courseOverview: The aim of this 3-day seminar is to train IT administrators, technicians, and planners to conduct WLAN site surveys using the Ekahau software suite. The course provides the necessary knowledge for the efficient use of Ekahau AI Pro/Connect and Ekahau Sidekick, as well as methods for planning, measuring, and analyzing WLAN networks. The course concludes with an exam and certification as a CSSE (Certified Site Survey Engineer).
+  #certificateURL: ""
+
+- name: Basics of active network technology
+  timeline: "Jun 2025 - Jun 2025"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "The two-day practical workshop teaches the most important basics of networking: you will gain an insight into the various network technologies and, on a practical level, basic switch configurations. The training course is suitable for both networking beginners and advanced users who want to learn more."
+  #certificateURL: "https://example.com"
