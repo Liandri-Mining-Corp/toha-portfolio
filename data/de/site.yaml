@@ -2,12 +2,12 @@
 copyright: © 2020 Copyright.
 
 # A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
-disclaimer: "This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses.
-You can modify or distribute the theme without requiring any permission from the theme author.
-However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
+disclaimer: "Dieses Theme steht unter der MIT-Lizenz. Sie können es daher für nicht-kommerzielle, kommerzielle oder private Zwecke verwenden.
+Sie können das Theme verändern oder weitergeben, ohne die Erlaubnis des Autors einholen zu müssen.
+Der Autor übernimmt jedoch keine Gewährleistung und haftet nicht für etwaige Probleme mit dem Theme."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Portfolio of Sofia Liandri Beck.
+description: Das Portfolio von Sofia Liandri Beck.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -17,6 +17,6 @@ description: Portfolio of Sofia Liandri Beck.
 openGraph:
   title: Sofia's Blog
   type: website
-  description: Portfolio of Sofia Liandri Beck.
+  description: Das Portfolio von Sofia Liandri Beck.
   image: images/author/liandri.png
   url: https://toha-preview.hugo-themes.com # To Do: change to depoley domain
