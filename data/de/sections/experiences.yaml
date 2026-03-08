@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Experiences
+  name: Berufserfahrung
   id: experiences
   enable: true
   weight: 3
@@ -15,15 +15,15 @@ experiences:
     url: "https://kti.de"
     location: Bielefeld
     logo: /images/sections/experiences/kti.png
-    overview: Distributor of active network infrastructure and offers several IT services.
+    overview: Distributor aktiver Netzwerkinfrastruktur und Anbieter verschiedener IT-Dienstleistungen.
   positions:
-  - designation: Trainee IT specialist for system integration
+  - designation: Auszubildende Fachinformatikerin für Systemintegration
     start: Oct 2024
     # end: Oct 2027
     responsibilities:
-    - Planning and Implement IT solutions
-    - IT infrastructure maintenance
-    - first level support
+    - Planung und Implementierung von IT-Lösungen
+    - Wartung der IT-Infrastruktur
+    - First-Level-Support
 
   #- designation: Junior Software Engineer
   #  start: Nov 2017
@@ -38,28 +38,28 @@ experiences:
     url: "https://www.afm-oerlinghausen.de/"
     location: Oerlinghausen
     logo: /images/sections/experiences/afm.png
-    overview: The Oerlinghausen Archaeological Open-Air Museum is the museum in Oerlinghausen, a town in the Lippe district of North Rhine-Westphalia.
+    overview: Das Archäologische Freilichtmuseum Oerlinghausen ist ein Freilichtmuseum, welches sich in Oerlinghausen, einer Stadt im Landkreis Lippe in Nordrhein-Westfalen befindet.
   positions:
-  - designation: Head of IT
+  - designation: Leiterin der EDV
     start: April 2020
     # end:
     responsibilities:
-    - Planning and Implement IT solutions
-    - IT infrastructure maintenance
-    - Google Workspace administration
-    - End-user support
-    - Point-of-sale system administration
+    - Planung und Implementierung von IT-Lösungen
+    - Wartung der IT-Infrastruktur
+    - Administration von Google Workspace
+    - Endbenutzersupport
+    - Administration von Kassensystemen
 
 - company:
     name: Haus Neuland
     url: "https://www.haus-neuland.de/"
     location: Bielefeld
     logo: /images/sections/experiences/haus-neuland.jpg
-    overview: Haus Neuland is a youth and adult education institution in Bielefeld.
+    overview: Haus Neuland ist eine Jugend- und Erwachsenenbildungseinrichtung in Bielefeld.
   positions:
-  - designation: Intern
+  - designation: Praktikantin
     start: April 2019
     end: May 2019
     responsibilities:
-    - Preparing seminars.
-    - Assisting with seminars.
+    - Seminare vorbereiten.
+    - Bei Seminaren mitwirken.
