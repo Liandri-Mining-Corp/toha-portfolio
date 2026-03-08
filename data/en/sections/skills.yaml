@@ -17,55 +17,97 @@ buttons:
   filter: "basic"
 - name: Language
   filter: "language"
-- name: Container
-  filter: "container"
+- name: Operating System
+  filter: "Operating System"
 - name: Others
   filter: "others"
+- name: Virtualization
+  filter: "virtualization"
+- name: Network
+  filter: "network"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
-
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: Proxmox
+  logo: /images/sections/skills/pve.png
+  summary: "Using Proxmox VE as the primary hypervisor for managing virtual machines and LXC containers in a self-hosted homelab and production environment."
+  categories: ["virtualization"]
+  url: "https://www.proxmox.com/de/produkte/proxmox-virtual-environment/uebersicht"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
+  summary: "Experienced in containerizing applications, managing images, volumes, and networks, and orchestrating multi-container environments using Docker Compose."
+  categories: ["virtualization"]
   url: "https://www.docker.com/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+- name: Proxmox Backup Server
+  logo: /images/sections/skills/pve.png
+  summary: "Experienced in setting up and managing Proxmox Backup Server for incremental, deduplicated backups of VMs and containers, including scheduling, pruning, and restore operations."
+  categories: ["virtualization"]
+  url: "https://www.proxmox.com/en/proxmox-backup-server"
+  
+- name: VMware ESXi
+  #logo: /images/sections/skills/esxi.png
+  summary: "Capable of deploying and managing VMware ESXi hypervisors, configuring virtual machines, datastores, and networking in both standalone and vCenter-managed environments."
+  categories: ["virtualization"]
+  url: "https://www.vmware.com/products/esxi-and-esx.html"
+
+- name: Zabbix
+  logo: /images/sections/skills/zabbix.png
+  summary: "Capable of setting up and configuring Zabbix for infrastructure monitoring, including hosts, triggers, dashboards, and alerting."
   categories: ["basic"]
-  url: "https://prometheus.io/"
+  url: "https://www.zabbix.com"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  summary: "Using Linux as the primary operating system for both development and server administration. Proficient in shell scripting, system configuration, and CLI tooling."
+  categories: ["Operating System"]
+
+- name: Windows
+  #logo: /images/sections/skills/windows.png
+  summary: "Proficient in using and administrating Windows as a desktop operating system, including system configuration, troubleshooting, and user management."
+  categories: ["Operating System"]
+  url: "https://www.microsoft.com/windows"
+
+- name: Windows Server
+  #logo: /images/sections/skills/windows.png
+  summary: "Experienced in deploying and managing Windows Server environments, including Active Directory, DNS, DHCP, Group Policies, and file services."
+  categories: ["others", "Operating System"]
+  url: "https://www.microsoft.com/en-us/windows-server"
+
+- name: FortiGate
+  logo: /images/sections/skills/fortigate.png
+  summary: "Experienced in configuring and managing FortiGate firewalls, including firewall policies, VPN setup, NAT, and network segmentation in enterprise environments."
+  categories: ["network"]
+  url: "https://www.fortinet.com/products/next-generation-firewall"
+
+- name: Edge-Core Switches
+  #logo: /images/sections/skills/edgecore.png
+  summary: "Capable of configuring and managing Edge-Core switches, including VLANs, STP, link aggregation, and port mirroring in LAN environments."
+  categories: ["network"]
+  url: "https://www.edge-core.com"
+
+- name: KTI Switches
+  logo: /images/sections/skills/kti.png
+  summary: "Experienced with KTI industrial switches for reliable network connectivity, including managed switch configuration in structured cabling environments."
+  categories: ["network"]
+  url: "https://www.kti.de"
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Comfortable with Git workflows including branching, merging, rebasing, and collaborating via platforms like GitHub and GitLab."
   categories: ["basic"]
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Familiar with Python for scripting, automation, and problem solving. Used in areas such as data processing and infrastructure tooling."
   categories: ["basic", "language"]
+
+- name: KTI Medienkonverter
+  logo: /images/sections/skills/kti.png
+  summary: "Familiar with deploying and managing KTI media converters for fiber-to-copper transitions, extending network reach in mixed infrastructure environments."
+  categories: ["network"]
+  url: "https://www.kti.de"
