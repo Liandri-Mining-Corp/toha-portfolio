@@ -40,9 +40,10 @@ socialLinks:
   icon: "fab fa-linkedin"
   url: "#"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
+# To Do: Remove
+# - name: Twitter
+#   icon: "fab fa-twitter"
+#   url: "#"
 
 - name: Facebook
   icon: "fab fa-facebook"
