@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Education
+  name: Bildung
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
@@ -10,14 +10,14 @@ section:
   # hideTitle: true
 
 degrees:
-- name: high school diploma
+- name: Abitur
   icon: fa-school
   timeframe: 2020-2023
   institution:
     name: Felix-Fechenbach-Gesamtschule
     logo: /images/sections/education/ffg.png
 
-- name: university entrance qualification with Q endorsement
+- name: Fachhochschulreife mit Q Vermerk
   icon: fa-school
   timeframe: 2010-2020
   institution:
