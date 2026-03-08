@@ -8,14 +8,14 @@ section:
   template: sections/about.html
 
 # your designation
-designation: IT Specialist for System Integration
+designation: Fachinformatikerin für Systemintrigration
 # your company information
 company:
   name: KTI Distribution GmbH
   url: "https://kti.de/"
 
 # a summary about you
-summary: 'I am a passionate IT specialist for system integration with 2 years of working experience. I administer multiple networks and servers. Sometimes, I work on some fun projects, such as implementing new systems in my own home lab, etc.'
+summary: 'Ich bin ein leidenschaftlicher IT-Spezialist für Systemintegration mit zwei Jahren Berufserfahrung. Ich administriere mehrere Netzwerke und Server. Gelegentlich arbeite ich an spannenden Projekten, wie beispielsweise der Implementierung neuer Systeme in meinem Heimnetzwerk.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -31,7 +31,7 @@ socialLinks:
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume"
+- title: "Mein Lebenslauf"
   url: "files/resume.pdf"
 
 # Show your badges
@@ -49,22 +49,22 @@ badges:
   badge: "https://images.credly.com/size/340x340/images/22a0ece5-ff05-4594-8320-25e55e9ae203/image.png"
 
 - type: soft-skill-indicator
-  name: Planning
+  name: Plannung
   percentage: 85
   color: green
 
 - type: soft-skill-indicator
-  name: Team Work
+  name: Teamarbeit
   percentage: 90
   color: yellow
 
 - type: soft-skill-indicator
-  name: Leadership
+  name: Führungsstärke
   percentage: 60
   color: blue
 
 - type: soft-skill-indicator
-  name: Hard Working
+  name: Fleißigkeit
   percentage: 80
   color: orange
 
