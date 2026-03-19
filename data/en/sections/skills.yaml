@@ -25,6 +25,8 @@ buttons:
   filter: "virtualization"
 - name: Network
   filter: "network"
+- name: Security
+  filter: "security"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
@@ -80,7 +82,7 @@ skills:
 - name: FortiGate
   logo: /images/sections/skills/fortigate.png
   summary: "Experienced in configuring and managing FortiGate firewalls, including firewall policies, VPN setup, NAT, and network segmentation in enterprise environments."
-  categories: ["network"]
+  categories: ["network", "security"]
   url: "https://www.fortinet.com/products/next-generation-firewall"
 
 - name: Edge-Core Switches
@@ -111,3 +113,9 @@ skills:
   summary: "Familiar with deploying and managing KTI media converters for fiber-to-copper transitions, extending network reach in mixed infrastructure environments."
   categories: ["network"]
   url: "https://www.kti.de"
+
+- name: OPNsense
+  #logo: /images/sections/skills/fortigate.png
+  summary: "Experienced in configuring and managing OPNsense firewalls, including firewall policies and NAT in enterprise environments."
+  categories: ["network", "security"]
+  url: "https://www.opnsense.org"
