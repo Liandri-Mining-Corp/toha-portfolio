@@ -115,7 +115,7 @@ skills:
   url: "https://www.kti.de"
 
 - name: OPNsense
-  logo: /images/sections/skills/fortigate.png
+  #logo: /images/sections/skills/fortigate.png
   summary: "Experienced in configuring and managing OPNsense firewalls, including firewall policies and NAT in enterprise environments."
   categories: ["network", "security"]
-  url: "https://www.fortinet.com/products/next-generation-firewall"
+  url: "https://www.opnsense.org"
